@@ -2,9 +2,703 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 35d655d1-d7a7-46c6-9904-b79d641e0868)
+	(uuid "35d655d1-d7a7-46c6-9904-b79d641e0868")
 	(paper "A4")
 	(lib_symbols)
+	(text "SƠ ĐỒ KHỐI TỔNG QUAN — ĐỒ ÁN CẢM BIẾN & THIẾT BỊ ĐO (NGUỒN 0-12V)"
+		(exclude_from_sim no)
+		(at 27.94 20.32 0)
+		(effects
+			(font
+				(size 2.4 2.4)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b3332ea4-be7c-4d63-9ce3-dce1b5069c80")
+	)
+	(junction
+		(at 124.46 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "608d9bff-4f7d-4086-b6b8-b8459ae154b5")
+	)
+	(junction
+		(at 124.46 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e264827b-b16f-4c33-9cae-4abc122cdcae")
+	)
+	(junction
+		(at 134.62 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9c064c4-ab73-483f-8c8d-0058169f920a")
+	)
+	(junction
+		(at 134.62 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b586d68-8aa9-4974-ab65-e262771f3af6")
+	)
+	(junction
+		(at 149.86 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53e35fa1-fd1f-4137-b6b6-69af18b08a7b")
+	)
+	(junction
+		(at 160.02 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ced2422b-2bdd-4d66-a957-3b8561366eba")
+	)
+	(wire
+		(pts
+			(xy 86.36 40.64) (xy 104.14 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e3920a0-6aa9-47a7-9236-f3c2a2056627")
+	)
+	(wire
+		(pts
+			(xy 104.14 40.64) (xy 104.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33120f0-5e6f-466a-981a-fd09e58b8884")
+	)
+	(wire
+		(pts
+			(xy 104.14 127) (xy 86.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df1c9a2-cbf2-4db3-a031-783cc6cb9b46")
+	)
+	(wire
+		(pts
+			(xy 86.36 48.26) (xy 114.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13052ab2-b55d-4d04-ab31-b4a5a4db91e8")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 114.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385169bb-a388-4263-90e5-389093899849")
+	)
+	(wire
+		(pts
+			(xy 114.3 127) (xy 190.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9097bfc-af51-49c3-908a-303f1f75fcec")
+	)
+	(wire
+		(pts
+			(xy 86.36 55.88) (xy 124.46 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd9a1cf-ebc5-4b11-9586-db824f83bf7a")
+	)
+	(wire
+		(pts
+			(xy 124.46 40.64) (xy 124.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa14378d-360a-4cf1-bf72-5d9cc4c60758")
+	)
+	(wire
+		(pts
+			(xy 124.46 40.64) (xy 190.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e921118-a4ad-41ba-b764-18ee2a2ef43e")
+	)
+	(wire
+		(pts
+			(xy 86.36 134.62) (xy 190.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85845855-5289-4ad9-a54d-dc36ff604a43")
+	)
+	(wire
+		(pts
+			(xy 86.36 63.5) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4e2c80-bd2e-4ee6-8584-14b564f798c4")
+	)
+	(wire
+		(pts
+			(xy 134.62 48.26) (xy 134.62 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575df68e-4ca0-42ab-819d-57ed2e583596")
+	)
+	(wire
+		(pts
+			(xy 134.62 48.26) (xy 190.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468c6188-6e12-4c81-a66f-304931a881d4")
+	)
+	(wire
+		(pts
+			(xy 86.36 142.24) (xy 190.5 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388b1b2f-53b1-4f53-8790-f7a33c71c3d0")
+	)
+	(wire
+		(pts
+			(xy 190.5 58.42) (xy 149.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12441a3-bde8-4ebc-af01-8a518cd411e3")
+	)
+	(wire
+		(pts
+			(xy 149.86 58.42) (xy 149.86 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0498c8fb-95b6-4ad8-bddb-2de4ceb9c182")
+	)
+	(wire
+		(pts
+			(xy 86.36 149.86) (xy 190.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe92e112-8c81-4027-ac6c-b1799949091e")
+	)
+	(wire
+		(pts
+			(xy 190.5 66.04) (xy 160.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79ea6c0-1a57-449b-933e-0b6e51ddf6de")
+	)
+	(wire
+		(pts
+			(xy 160.02 66.04) (xy 160.02 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47766e5-0287-4f2f-b4c2-f6f16d53537e")
+	)
+	(wire
+		(pts
+			(xy 86.36 154.94) (xy 190.5 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e5c7448-da43-4955-9092-651d141253db")
+	)
+	(wire
+		(pts
+			(xy 190.5 73.66) (xy 175.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f36371b-9994-45d0-9dd9-c89c37ad6431")
+	)
+	(wire
+		(pts
+			(xy 175.26 73.66) (xy 175.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9afc92fd-1f4c-481a-a1a4-2a3409387705")
+	)
+	(wire
+		(pts
+			(xy 175.26 121.92) (xy 190.5 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664248e2-1734-459b-961c-56fb1adb0223")
+	)
+	(wire
+		(pts
+			(xy 86.36 160.02) (xy 190.5 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7a7e1e-52dc-4b83-93a2-47e31c9360ca")
+	)
+	(wire
+		(pts
+			(xy 86.36 165.1) (xy 190.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f63abe-60ef-40ea-b7da-f1210fe49314")
+	)
+	(sheet
+		(at 27.94 33.02)
+		(size 58.42 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 255 245 230 1.0)
+		)
+		(uuid "48447314-c21d-449d-89df-574b3d0413ad")
+		(property "Sheetname" "Khối 1: Nguồn 19V-5V-3.3V"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.6 1.6)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KhoiNguon12V.kicad_sch"
+			(at 27.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN" output
+			(at 86.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "52c7c754-1524-4207-b963-b8b529b5f172")
+		)
+		(pin "+5V" output
+			(at 86.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d4aa125c-6635-40c4-95cb-63ab678d57cc")
+		)
+		(pin "+3V3" output
+			(at 86.36 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "50463334-39b3-4f5a-8f5f-c74bbd8b7dc9")
+		)
+		(pin "GND" passive
+			(at 86.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "86ac257a-60eb-4a68-80ed-71a27a1f15d7")
+		)
+		(instances
+			(project "DoAnCamBienThietBiDo"
+				(path "/35d655d1-d7a7-46c6-9904-b79d641e0868"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 33.02)
+		(size 58.42 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 230 245 255 1.0)
+		)
+		(uuid "48447314-c21d-449d-89df-574b3d0413ad")
+		(property "Sheetname" "Khối 2: ESP-12E & Nạp Code"
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.6 1.6)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KhoiViDieuKhien.kicad_sch"
+			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" input
+			(at 190.5 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2f0b8cea-7c9f-4a0d-bb50-512d2c20043a")
+		)
+		(pin "GND" passive
+			(at 190.5 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac0398ca-0bc0-466f-b9bd-95198e04d385")
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 190.5 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "80895ae7-f317-4757-b3ec-a12a2f1440cc")
+		)
+		(pin "I2C_SCL" bidirectional
+			(at 190.5 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca60ed00-3c21-4ab2-a23e-c18c20d26358")
+		)
+		(pin "TEMP_ADC" input
+			(at 190.5 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8226303b-000e-46db-b0f9-24eef37e7f96")
+		)
+		(instances
+			(project "DoAnCamBienThietBiDo"
+				(path "/35d655d1-d7a7-46c6-9904-b79d641e0868"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 119.38)
+		(size 58.42 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 235 255 235 1.0)
+		)
+		(uuid "48447314-c21d-449d-89df-574b3d0413ad")
+		(property "Sheetname" "Khối 3: DAC & Công Suất 0-12V"
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.6 1.6)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KhoiDAC_CongSuat.kicad_sch"
+			(at 27.94 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7e58f8f1-f768-4037-b492-8eabf10b6e38")
+		)
+		(pin "+3V3" input
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c87611ba-6a03-47d1-8839-7b29acb64b33")
+		)
+		(pin "GND" passive
+			(at 86.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "57466eef-b235-411a-9747-3e689bf4958c")
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "260b3045-483b-4b6d-9b8c-dba8653951ed")
+		)
+		(pin "I2C_SCL" input
+			(at 86.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b5cc0e7b-0251-41e2-826f-6cc39f94aab8")
+		)
+		(pin "V_RAW" output
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "346599a9-8384-4b13-be3e-bfbd7bff0940")
+		)
+		(pin "V_OUT" output
+			(at 86.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f9164194-c14e-40db-a717-11fd422fdf49")
+		)
+		(instances
+			(project "DoAnCamBienThietBiDo"
+				(path "/35d655d1-d7a7-46c6-9904-b79d641e0868"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 119.38)
+		(size 58.42 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 248 235 255 1.0)
+		)
+		(uuid "48447314-c21d-449d-89df-574b3d0413ad")
+		(property "Sheetname" "Khối 4: Cảm Biến INA219 & LM35"
+			(at 190.5 118.11 0)
+			(effects
+				(font
+					(size 1.6 1.6)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KhoiCamBien.kicad_sch"
+			(at 190.5 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TEMP_ADC" output
+			(at 190.5 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5bd0622-01c6-4553-8d61-bb8a0a6f5aee")
+		)
+		(pin "+5V" input
+			(at 190.5 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5569aa1b-d0fe-4fbd-90f4-2c10f5111a41")
+		)
+		(pin "+3V3" input
+			(at 190.5 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2b1a6d0c-e034-4f7e-8c53-97e86ad80dc6")
+		)
+		(pin "GND" passive
+			(at 190.5 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c377234f-a59e-41f6-b4d6-f4837346b62a")
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 190.5 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "988fc0c5-70c2-47b5-a489-fad04545ed9c")
+		)
+		(pin "I2C_SCL" input
+			(at 190.5 154.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "645a872f-d4d9-476e-bcc8-1cfbe8926e56")
+		)
+		(pin "V_RAW" input
+			(at 190.5 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "434aaf6c-105e-45a7-904c-ecde61ac0089")
+		)
+		(pin "V_OUT" input
+			(at 190.5 165.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae4b152e-b5cd-4198-8fa5-163548dcfa02")
+		)
+		(instances
+			(project "DoAnCamBienThietBiDo"
+				(path "/35d655d1-d7a7-46c6-9904-b79d641e0868"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
